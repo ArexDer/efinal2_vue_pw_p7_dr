@@ -4,9 +4,9 @@
         <div class="campos">
             <div class="camposIZQ">
                 <label for="numVenta">Numero de Venta</label>
-                <input type="text" id="numVenta">
+                <input type="text" id="numVenta" v-model="venta.numVenta">
                 <label for="cedula">Cedula</label>
-                <input type="text" id="cedula">
+                <input type="text" id="cedula" v-model="venta.cedula">
             </div>
             <div class="camposDER">
                 <button @click="guardarVenta">GUARDAR</button>
